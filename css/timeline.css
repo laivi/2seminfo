@@ -9,7 +9,7 @@
   position: absolute;
   content: " ";
   width: 2px;
-  background-color: #4997cd;
+  background-color: #f58c2f;
   left: 50%;
   margin-left: -1.5px;
 }
@@ -27,7 +27,7 @@
   top: 20px;
   left: 50%;
   margin-left: -25px;
-  background-color: #4997cd;
+  background-color: #f58c2f;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -51,7 +51,7 @@
   top: 40px;
 }
 #timeline .timeline-badge.timeline-filter-movement a span {
-  color: #4997cd;
+  color: #423566;
   font-size: 1.3em;
   top: 3px;
 }
@@ -64,13 +64,13 @@
   margin-left: -18px;
 }
 #timeline .timeline-badge.timeline-future-movement a span {
-  color: #4997cd;
+  color: #f58c2f;
   font-size: .9em;
   top: 2px;
   left: 1px;
 }
 #timeline .timeline-movement {
-  border-bottom: dashed 1px #4997cd;
+  border-bottom: dashed 1px #f58c2f;
   position: relative;
 }
 #timeline .timeline-movement.timeline-movement-top {
