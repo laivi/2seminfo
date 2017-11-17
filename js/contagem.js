@@ -4,13 +4,12 @@ var regressiva = document.getElementById("regressiva");
 
 setInterval(function () {
 
-    if(dias <= 0 & dias >=-2 & horas <= 0 & minutos <= 0 & segundos <= 0) {
+    if(dias <= 0 & horas <= 0 & minutos <= 0 & segundos <= 0) {
 
         document.getElementById('contagem1').classList.add('disable');
 
         document.getElementById('inicio1').classList.remove('disable');
 
-    }else if(){    
         
     }else{
 
