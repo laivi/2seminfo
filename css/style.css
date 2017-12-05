@@ -911,7 +911,15 @@ soon.css:129
     width: 100%;
     background: #000000;
 }
-.ob_const{
+@media(min-width:730px){
+    .ob_const{
     margin-left: 27%;
     margin-top: 73px;
+    }
+}
+
+@media(max-width:720px){
+    .ob_const{
+    margin-top: 73px;
+    }
 }
