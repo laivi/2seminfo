@@ -42,6 +42,8 @@ setInterval(function () {
 
     	document.getElementById('end').classList.remove('disable');
 
+       document.getElementById("insc").innerHTML =" <i class='fa fa-pencil-square-o' aria-hidden='true'></i><b> Inscrições:</b> Fechadas";
+
     }
 
 }, 1000);

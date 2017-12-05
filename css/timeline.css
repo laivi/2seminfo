@@ -80,7 +80,8 @@
   padding: 20px 0;
 }
 #timeline .timeline-movement .timeline-item .timeline-panel {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #312859;  
+  opacity: 0.92;
   border-radius: 3px;
   background-color: #FFFFFF;
   color: #666;
@@ -159,3 +160,5 @@
   color: #90C;
   font-size: 1.3em;
 }
+
+

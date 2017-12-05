@@ -206,7 +206,6 @@ p
     color: #f4872d;
     font-size: 35px;
     margin-right: 10px;
-    margin-top: -15px;
     margin-bottom: 20px;
     }  
 
@@ -791,7 +790,7 @@ soon.css:129
         margin-top: 20px
     }
     .contagem{
-        margin-top:-30%;
+        margin-top:-32%;
         margin-left:37%
     }
 }
@@ -906,3 +905,13 @@ soon.css:129
     display: none;
 }
 /* end templatemo 360 media quires */
+
+.map-l {
+    height: 300px;
+    width: 100%;
+    background: #000000;
+}
+.ob_const{
+    margin-left: 27%;
+    margin-top: 73px;
+}
