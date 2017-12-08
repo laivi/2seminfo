@@ -34,6 +34,11 @@ setInterval(function () {
 
         document.getElementById('inicio1').classList.remove('disable');
 
+        document.getElementById('service').classList.remove('esp-50N');
+
+        document.getElementById('service').classList.add('esp-40N');
+
+
     }else if(dias <= -3){  
 
     	document.getElementById('inicio1').classList.add('disable');	
@@ -41,6 +46,11 @@ setInterval(function () {
     	document.getElementById('contagem1').classList.add('disable');
 
     	document.getElementById('end').classList.remove('disable');
+
+        document.getElementById('service').classList.remove('esp-50N');
+
+        document.getElementById('service').classList.add('esp-40N');
+
 
        document.getElementById("insc").innerHTML =" <i class='fa fa-pencil-square-o' aria-hidden='true'></i><b> Inscrições:</b> Fechadas";
 

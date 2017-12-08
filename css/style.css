@@ -767,12 +767,16 @@ soon.css:129
     .go-c{
     width: 74%;
     margin-left: 50px;
-}
     }
 
 }
 .nome_logo{
     font-size: 30px;
+}
+.campo_local{
+    padding-top: 10px; 
+    padding-left: 15px;
+    text-align: left
 }
 
 .font_18{
@@ -893,6 +897,9 @@ soon.css:129
 .esp_bottom-50{
     margin-bottom:50px; 
 }
+.esp_bottom-100{
+    margin-bottom:100px; 
+}
 .desativa{
     background: #ddd!important;
     color: ivory!important;
@@ -905,6 +912,9 @@ soon.css:129
     display: none;
 }
 /* end templatemo 360 media quires */
+.justify{
+    text-align: justify;
+}
 
 .map-l {
     height: 300px;
