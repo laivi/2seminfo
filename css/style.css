@@ -25,7 +25,7 @@ p
     }
 
 /* start all section */
-#service,#comissao,#divider, #about, #team, #newsletter,
+#service,#comissao,#minicursos,#palestras,#divider,#hackathon, #about, #team, #newsletter,
  #pricing, #portfolio, #client, #contact
     {
         padding-top: 100px;
@@ -192,7 +192,130 @@ p
        
 /* end service */
 
+/* start palestras */
+#palestras .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+#palestras .media .fa
+    {
+    color: #f4872d;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+#palestras .media .fa-cog,
+#palestras .media .fa-laptop,
+#palestras .media .fa-comments-o
+    {
+    margin-top: 0px;
+    }  
+#palestras .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }     
+      
+/* end palestras */
+
+/* start minicursos*/
+#minicursos .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+#minicursos .media .fa
+    {
+    color: #f4872d;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    } 
+#minicursos .media .fa-cog,
+#minicursos .media .fa-laptop,
+#minicursos .media .fa-comments-o
+    {
+    margin-top: 0px;
+    } 
+#minicursos .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }   
+/* end minicurso */
+
+/* start Hackathon */
+#hackathon_{
+    color:#312859!important;
+    }
+#hackathon_ .fa{
+    color: darkorange;
+}
+#hackathon hr{
+    border:1px solid #999;
+    opacity: 0.4;
+}
+
+#hackathon{
+      background: url('../images/hackathon.png');   
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #cfcfcf;
+}
+
+
+#hackathon .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    
+#hackathon .media .fa
+    {
+    color: #f4872d;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }  
+
+       
+
+#hackathon .media .fa-cog,
+#hackathon .media .fa-laptop,
+#hackathon .media .fa-comments-o
+    {
+    margin-top: 0px;
+    }  
+
+ 
+
+#hackathon .media .media-heading
+    {
+        border-bottom: 2px solid #202020;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }  
+      
+
+/* end hackathon */
+
 /* start comissao */
+
 
 #comissao .media .media-heading
     {
@@ -201,6 +324,8 @@ p
         font-size: 20px;
         padding-bottom: 10px;
     }
+
+    
 #comissao .media .fa
     {
     color: #f4872d;
@@ -209,12 +334,17 @@ p
     margin-bottom: 20px;
     }  
 
+       
+
 #comissao .media .fa-cog,
 #comissao .media .fa-laptop,
 #comissao .media .fa-comments-o
     {
     margin-top: 0px;
-    }     
+    }  
+
+ 
+
 #comissao .media .media-heading
     {
         border-bottom: 2px solid #202020;
@@ -222,6 +352,7 @@ p
         font-size: 20px;
         padding-bottom: 10px;
     }  
+      
 
 /* end comissao */
 
@@ -406,16 +537,17 @@ p
  }
 #pricing .plan:hover
   {
-    background: #202020;
-    color: #ffffff;
+    background:lavender;
     transform: scale(1.0);
   }
 #pricing .plan .plan_title
   {
     border-bottom: 1px solid #f6f6f6;
-    color: #9bc848;
-    font-size: 30px;
-    padding: 20px;
+    color: #312859;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: -18px;
+    margin-bottom: 20px;
   }
 #pricing .plan ul
   {
@@ -424,7 +556,7 @@ p
 #pricing .plan ul li
   {
     display: block;
-    padding: 20px 0 20px 0;
+    padding: 0px 0 20px 0;
   }
 #pricing .plan .btn
   {
@@ -778,6 +910,9 @@ soon.css:129
     padding-left: 15px;
     text-align: left
 }
+ .mob_esp-30{
+        margin-top: 30px!important;
+    }
 
 .font_18{
     font-size: 18px;
@@ -812,6 +947,7 @@ soon.css:129
     .mob_esp-10{
         margin-top: 10px!important;
     }
+   
 
 }
 @media screen and (orientation:landscape) and (max-width: 740px) and (min-width: 510px){
@@ -864,6 +1000,9 @@ soon.css:129
 .esp-50{
     margin-top: 50px;
 }
+.esp-170N{
+    margin-top:-170px;
+}
 .esp-150N{
     margin-top:-150px;
 }
@@ -882,6 +1021,15 @@ soon.css:129
 .esp-110N{
     margin-top:-110px;
 }
+.esp-90N{
+    margin-top: -90px;
+}
+.esp-80N{
+    margin-top: -80px;
+}
+.esp-70N{
+    margin-top: -70px;
+}
 .esp-60N{
     margin-top: -60px;
 }
@@ -899,6 +1047,12 @@ soon.css:129
 }
 .esp_bottom-100{
     margin-bottom:100px; 
+}
+.esp_left-20N{
+    margin-left: -20px;
+}
+.esp_left-10N{
+    margin-left: -10px;
 }
 .desativa{
     background: #ddd!important;
@@ -932,4 +1086,24 @@ soon.css:129
     .ob_const{
     margin-top: 73px;
     }
+}
+.nome_mini{
+    margin-left: -35px;
+}
+.in_mini{
+    font-size: 20px!important;
+    color: darkorange!important;
+    border: 1px solid;
+    padding: 5px!important;
+    border-radius: 5px!important;
+    display:inline;
+   
+}
+.fadeIn a{
+text-decoration: none; 
+}
+.background_hackathon{
+    background: white;
+    color:black;
+    border-radius: 10px;
 }
