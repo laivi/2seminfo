@@ -1,4 +1,4 @@
 # II Seminfo
---> Segunda semana de informatica do IFPI-Campus Paulistana <--
+2º Semana de Informatica do IFPI - CAPAU
 
   
